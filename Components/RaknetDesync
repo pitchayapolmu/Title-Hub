@@ -1,6 +1,6 @@
 local uis = game:GetService("UserInputService")
 local hooked = false
-local toggle = Enum.KeyCode.G
+local toggle = Enum.KeyCode.U
 
 local function rakhook(packet)
     if packet.PacketId == 0x1B then
